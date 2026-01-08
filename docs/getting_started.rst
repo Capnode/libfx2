@@ -5,7 +5,7 @@ Read configuration EEPROM:
 
 .. code-block:: sh
 
-  fx2tool -S firmware/bootloader/bootloader.ihex read_eeprom 0 7
+  fx2tool -S firmware/boot-cypress/boot-cypress.ihex read_eeprom 0 7
 
 Load the Blinky example (a LED should be attached to PA0):
 
